@@ -1,0 +1,62 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body{
+  background-color:#008BFF;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.pass{
+  width: 350px;
+  /* height: 350px; */
+  padding: 20px;
+  background-color: #5B23FF;
+  color: black;
+  box-shadow: #008BFF;
+}
+.passboxin{
+  display:flex;
+  gap: 7px;
+
+}
+.passboxin button{
+  width: 90px;
+  height: 40px;
+}
+.passboxin input{
+  height: 40px;
+  width: 250px;
+  padding-left: 7px;
+  border-radius: 7px;
+  background-color: #362F4F;
+}
+.passlength{
+  padding: 10px 0px ;
+  display: flex;
+  justify-content: space-between;
+
+}
+.passlength label{
+  flex-basis: 80%;
+
+}
+.passlength input{
+  flex-basis: 20%;
+  width: 60px;
+}
+.btn{
+  cursor: pointer;
+}
+.box{
+  height: 40px;
+  width: 50px;
+  color: white;
+  /* padding-left:5px ; */
+  text-align: center;
+  font-size: large;
+}
