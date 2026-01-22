@@ -30,15 +30,7 @@ It allows users to generate strong random passwords by selecting character types
 
 ---
 
-## 📸 Preview
 
-_Add a screenshot of your app here_
-
-```md
-![ShieldPass Preview](./screenshot.png)
-```
-
----
 
 ## 📂 Project Structure
 
