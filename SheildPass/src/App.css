@@ -1,62 +1,117 @@
 *{
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+
 body{
-  background-color:#008BFF;
+  background-color: #008BFF;
   width: 100%;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-
+  font-family: Arial, Helvetica, sans-serif;
 }
+
+
 .pass{
-  width: 350px;
-  /* height: 350px; */
-  padding: 20px;
+  width: 550px;
+  padding: 30px;
   background-color: #5B23FF;
   color: black;
-  box-shadow: #008BFF;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
 }
-.passboxin{
-  display:flex;
-  gap: 7px;
 
+.pass h2{
+  text-align: center;
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  margin-bottom: 25px;
+  color: #ffffff;
+  font-family: 'Segoe UI', 'Poppins', 'Montserrat', sans-serif;
 }
-.passboxin button{
-  width: 90px;
-  height: 40px;
+
+
+
+.passboxin{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
 }
+
 .passboxin input{
-  height: 40px;
-  width: 250px;
-  padding-left: 7px;
-  border-radius: 7px;
+  height: 60px;
+  width: 340px;
+  padding-left: 14px;
+  border-radius: 12px;
   background-color: #362F4F;
+  font-size: 20px;
+  color: white;
+  border: none;
+  outline: none;
 }
+
+.passboxin button{
+  width: 65px;
+  height: 60px;
+  font-size: 22px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+
 .passlength{
-  padding: 10px 0px ;
+  padding: 14px 0;
   display: flex;
   justify-content: space-between;
-
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
 }
+
 .passlength label{
-  flex-basis: 80%;
+  flex-basis: 75%;
+}
 
-}
 .passlength input{
-  flex-basis: 20%;
-  width: 60px;
+  flex-basis: 25%;
 }
-.btn{
+.passlength input[type="checkbox"]{
+  width: 26px;
+  height: 26px;
+  transform: scale(1.6); 
   cursor: pointer;
 }
+
+
 .box{
-  height: 40px;
-  width: 50px;
+  height: 55px;
+  width: 90px;
+  font-size: 20px;
   color: white;
-  /* padding-left:5px ; */
+  background-color: #362F4F;
+  border-radius: 10px;
+  border: none;
   text-align: center;
-  font-size: large;
+}
+
+.btn{
+  width: 100%;
+  height: 55px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 12px;
+  cursor: pointer;
+  border: none;
+  background-color: #00E5FF;
+  color: black;
+}
+
+.btn:hover{
+  background-color: #00cfe6;
 }
